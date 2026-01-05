@@ -30,6 +30,25 @@
     cursor: pointer;
 }
 
+.section-heading {
+    max-width: 827px;
+    text-align: center;
+}
+
+.section-heading h2 {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.section-heading p {
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+
 /* -----shared style end----- */
 header {
     background-color: #FFF8F3;
@@ -37,13 +56,13 @@ header {
     background-position: bottom left, right bottom;
     background-repeat: no-repeat;
     padding-top: 51px;
-    max-height: 837px;
+
 }
 
 /* --------nav style------- */
 nav {
     width: 71%;
-    max-width: 1140;
+    max-width: 1140px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -64,6 +83,7 @@ nav .menu a {
 }
 
 /* -------nav style end------- */
+
 /*-----banner style start----- */
 #banner {
     /* border: 1px solid red; */
@@ -113,4 +133,42 @@ nav .menu a {
 .banner-img img {
     max-width: 584px;
     vertical-align: middle;
+
 }
+
+/* -----main area style  start----- */
+/* -------about style start--- */
+#about {
+    padding-top: 130px;
+}
+
+#about .about-container {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    background-color: #FFF8F3;
+    align-items: center;
+    padding: 130px 156px;
+}
+
+.about-info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info .info-card {
+    text-align: center;
+}
+
+.info-card p {
+    font-size: 20px;
+    color: #757575;
+    line-height: 30px;
+}
+
+.info-card h4 {
+    color: #757575;
+}
+
+/* -----about style end----- */
+/* -----main area style end------ */
