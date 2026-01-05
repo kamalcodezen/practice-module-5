@@ -27,15 +27,20 @@
     font-size: 20px;
     font-weight: bold;
     color: white;
+    cursor: pointer;
 }
 
 /* -----shared style end----- */
 header {
     background-color: #FFF8F3;
+    background: url("../images/developer.png"), url("../images/header_bg.png"), #FFF8F3;
+    background-position: bottom left, right bottom;
+    background-repeat: no-repeat;
     padding-top: 51px;
+    max-height: 837px;
 }
 
-/* --------nav start------- */
+/* --------nav style------- */
 nav {
     width: 71%;
     max-width: 1140;
@@ -57,4 +62,55 @@ nav .menu a {
     color: #474747;
     font-size: 20px;
 }
-/* -------nav end------- */
+
+/* -------nav style end------- */
+/*-----banner style start----- */
+#banner {
+    /* border: 1px solid red; */
+    margin: 45px 38px 0px 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-content {
+    max-width: 585px;
+}
+
+.banner-content h2 {
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.banner-content h1 {
+    font-size: 85px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.banner-content p {
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.banner-btn .btn {
+    margin-right: 30px;
+}
+
+.white-btn {
+    background-color: white;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    padding: 18px 35px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FD6E0A;
+    cursor: pointer;
+}
+
+.banner-img img {
+    max-width: 584px;
+    vertical-align: middle;
+}
