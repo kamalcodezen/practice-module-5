@@ -32,6 +32,7 @@
 
 .section-heading {
     max-width: 827px;
+    margin: 0 auto;
     text-align: center;
 }
 
@@ -138,7 +139,8 @@ nav .menu a {
 
 /* -----main area style  start----- */
 /* -------about style start--- */
-#about {
+#about,
+#skill {
     padding-top: 130px;
 }
 
@@ -171,4 +173,48 @@ nav .menu a {
 }
 
 /* -----about style end----- */
+
+/* ------skill section style start----- */
+#skill .skill-container {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    justify-content: center;
+
+}
+
+#skill .skill-container .skill-box {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    gap: 25px;
+}
+
+.skill-box .skill-card {
+    max-width: 267px;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 6px 50px 0 #00000037;
+
+}
+
+.skill-card img {
+    max-width: 45px;
+    margin-bottom: 30px;
+}
+
+.skill-card h4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.skill-card p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
+
+/* ------skill section style end------ */
+
 /* -----main area style end------ */
