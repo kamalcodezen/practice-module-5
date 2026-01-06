@@ -272,3 +272,52 @@ nav .menu a {
 /* -----resume section style end------- */
 
 /* -----main area style end------ */
+
+/* ----footer start----- */
+footer {
+    background-color: #FFF8F3;
+}
+
+#footer-container {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 130px 0;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 113px;
+}
+
+#footer-container .social {
+    width: 562px;
+}
+
+#footer-container h2 {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#footer-container .social p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+#footer-container .icons a {
+    margin-right: 24px;
+}
+
+#footer-container form input[type="text"],
+#footer-container form input[type="email"],
+#footer-container form textarea {
+    width: 461px;
+    padding: 18px 30px;
+    border-radius: 5px;
+    color: #757575;
+    border: none;
+    margin-bottom: 24px;
+}
+
+/* ----footer end----- */
